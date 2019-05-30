@@ -1,7 +1,7 @@
 n=int(input())
 temp=n
 sum=0
-while(ch>0):
+while(n>0):
   var=n%10
   sum=sum*10+var
   n=n//10

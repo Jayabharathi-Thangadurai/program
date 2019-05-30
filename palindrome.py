@@ -1,0 +1,11 @@
+n=int(input())
+temp=n
+sum=0
+while(ch>0):
+  var=n%10
+  sum=sum*10+var
+  n=n//10
+if(temp==sum):
+  print("yes")
+else:
+  print("no")
